@@ -5,7 +5,7 @@ function App() {
   return (
     <>
         <h1>{userName}</h1>
-        <h1>{10+20+30}</h1>
+        <h1>{10+20+30+40}</h1>
         <h1>{x*y}</h1>
         <button onClick={()=>alert("hello")}>Click</button>
     </>

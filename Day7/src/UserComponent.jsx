@@ -27,3 +27,4 @@ export function Setting() {
 
 
 export const Userkey = "@@@@@@@@@";
+export const variable = "########";
