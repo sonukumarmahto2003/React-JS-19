@@ -1,7 +1,7 @@
 function App() {
 
   function callfun() {
-    alert("function called");
+    alert("function call");
   }
 
   const fruit = (name) => {
@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <h1>Event and function call</h1>
+      <button onClick={callfun}>Click Me</button>
       <button onClick={()=>fruit("apple")}>Click Me1</button>
       <button onClick={()=>fruit("banana")}>Click Me2</button>
     </>
